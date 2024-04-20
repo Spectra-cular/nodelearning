@@ -1,0 +1,19 @@
+Steps to create nodejs file for web page
+1--->npm init hanne ani enter enter hanne terminal ma 
+or npm init -y handa ni hunxa
+ani package.jason file create hunxa
+2---> app.js file create garne(main file jun ma dheri code hunxa)
+
+3-------> terminal ma npm install express hane ani node_modules create hunxa jun ma file haru orginize hunxa
+ani package-lock.json file ni create hunxa
+4------->
+const express=require('express');
+const app=express();
+app.get('/',(req,res)=>{
+    res.send("Hey Hi")
+})
+
+app.listen(3000,()=>{
+    console.log("Server hast started at portnumber 3000")
+})
+
